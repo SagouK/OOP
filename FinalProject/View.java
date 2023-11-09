@@ -13,10 +13,10 @@ public class View {
 
 
     public void run() {
-        System.out.println("Калькулятор комплексных чисел.");
+        System.out.println("Калькулятор комплексных чисел\n");
         Operations operations = iCalculableFactory.create(getComplexValue());
         while (true) {
-            System.out.print("Операция (+,*,/,=) : ");
+            System.out.print("Выберите операцию (+,*,/,=): ");
             String input = scanner.nextLine().toLowerCase();
             switch (input) {
                 case "+":

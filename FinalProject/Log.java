@@ -6,7 +6,7 @@ public class Log implements Logger{
 
     @Override
     public void writeLog(String str) {
-        System.out.println(LocalDateTime.now() + ":" + str);;
+        System.out.println(LocalDateTime.now() + ": " + str);;
     }
     
 }
